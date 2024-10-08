@@ -20,11 +20,7 @@ const paragrafo = document.createElement('p')
 
   const container = document.getElementById('graficos--container')
   container.appendChild(paragrafo)
-
-const tipo_dados = dados[0]['variavel']
-console.log(tipo_dados)
-const regiao = dados[0]["resultados"]
-console.log(regiao)
+  
 }
 
 visualizarDados()
