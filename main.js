@@ -18,6 +18,9 @@ const paragrafo = document.createElement('p')
   paragrafo.classList.add('graficos--container__texto')
   paragrafo.innerHTML = `Está é uma pesquisa do IBGE com o foco em ${tipo_dados}.`
 
+  const container = document.getElementById('graficos--container')
+  container.appendChild(paragrafo)
+
 const tipo_dados = dados[0]['variavel']
 console.log(tipo_dados)
 const regiao = dados[0]["resultados"]
