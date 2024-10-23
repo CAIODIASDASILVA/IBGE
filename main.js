@@ -26,7 +26,7 @@ const paragrafo = document.createElement('p')
   paragrafo.innerHTML += `No ano de ${ano[0]} foi produzido ${valor[0]}}`
 
   const container = document.getElementById('graficos--container')
-
+  container.appendChild(paragrafo)
 }
 
 visualizarDados()
