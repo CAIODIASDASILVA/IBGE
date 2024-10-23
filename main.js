@@ -23,6 +23,7 @@ console.log(ano, valor)
 const paragrafo = document.createElement('p')
   paragrafo.classList.add('graficos--container__texto')
   paragrafo.innerHTML = `Está é uma pesquisa do IBGE com o foco em ${tipo_dados}.`
+  paragrafo.innerHTML += `No ano de ${ano[0]} foi produzido ${valor[0]}}`
 
   const container = document.getElementById('graficos--container')
 
