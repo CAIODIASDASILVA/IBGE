@@ -24,7 +24,6 @@ const paragrafo = document.createElement('p')
   paragrafo.innerHTML = `Está é uma pesquisa do IBGE com o foco em ${tipo_dados}.`
 
   const container = document.getElementById('graficos--container')
-  container.appendChild(paragrafo)
 
 }
 
