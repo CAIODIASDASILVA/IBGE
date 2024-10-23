@@ -13,9 +13,10 @@ tipo_dados = (dados[0]['variavel'])
 resultado_dados = (dados[0]['resultados'][0]["series"][regiao]['serie'])
 resultado_regiao = (dados[0]['resultados'][0]["series"][regiao]["localidade"]['nome'])
 console.log(resultado_dados, resultado_regiao)
-
+let ano = Object.keys(resultado_dados)
+let valor = Object.values(resultado_dados)
 let genero = dados[0]['resultados'][0]['classificacoes'][0]['categoria']
-Object.keys(resultado_dados1)[0]
+
 
 
 const paragrafo = document.createElement('p')
